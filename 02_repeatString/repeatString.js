@@ -19,7 +19,7 @@ const repeatString = function(string, num) {
         return "ERROR";
     } else {
         for (let i = 0; i < num; i ++) {
-            phrase = phrase + string;
+            phrase += string;
         }
         return phrase;
     }
